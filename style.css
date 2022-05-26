@@ -9,6 +9,14 @@ h1 {
   margin: 20px 0;
 }
 
+/* utilities */
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: green;
+}
+
 /* layout */
 .container {
   max-width: 1100px;
@@ -27,4 +35,13 @@ h1 {
 /* products */
 .product {
   padding-bottom: 20px;
+  position: relative;
+}
+.product img {
+  width: 100%;
+}
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
